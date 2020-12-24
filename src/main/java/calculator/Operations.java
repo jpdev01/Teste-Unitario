@@ -1,4 +1,4 @@
-package main.calculator;
+package calculator;
 
 public class Operations
 {

@@ -1,15 +1,19 @@
-package test.calculator;
+package calculator;
 
-import main.calculator.Operations;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.jupiter.api.*;
 
 class OperationsTest
 {
+	Operations op;
 
+	@BeforeEach
+	public void init(){
+		op = new Operations();
+	}
 	@Test
 	@DisplayName("Testa se 10 + 2 é igual a 12")
+	@Tag("testCalculator")
 	void testSomarInt()
 	{
 		//Arrange
@@ -18,7 +22,7 @@ class OperationsTest
 		int expectedValue = 12;
 
 		//Act
-		Operations op = new Operations();
+
 		int actualValue = op.somar(num1, num2);
 
 		//Assert

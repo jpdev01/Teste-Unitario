@@ -1,4 +1,4 @@
-package main.calculator;
+package calculator;
 
 public class Calculator
 {
@@ -8,7 +8,7 @@ public class Calculator
 		System.out.println("-----CALCULADORA-------");
 		Operations op = new Operations();
 
-		System.out.println(op.div(2, 0));
+		System.out.println(op.somar(2, 10));
 
 	}
 }
