@@ -1,6 +1,7 @@
 package calculator;
 
-public class operations {
+public class Operations
+{
     public static int somar(int a, int b){ return a+b; }
 
     public static double somar(double a, double b){ return (double) a+b; }

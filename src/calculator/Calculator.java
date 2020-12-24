@@ -1,9 +1,10 @@
 package calculator;
 
-public class calculator {
+public class Calculator
+{
 
     public static void main(String[] args){
         System.out.println("-----CALCULADORA-------");
-        System.out.println(operations.somar(2, 4));
+        System.out.println(Operations.somar(2, 4));
     }
 }
